@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ion-icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #3c4043;
+}
+
+p, h5{
+    color: #3c4043;
+}
+
+body{
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 10px 24px;
+    border-bottom: 1px solid gainsboro;
+    background-color: #FFF;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+}
+
+.header-mural{
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+.header-mural h5{
+    font-weight: 500;
+}
+
+.header-mural-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+.titulo{
+    gap: 10px;
+}
+
+.titulo p{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.icons{
+    gap: 20px;
+}
+
+#profile{
+    font-size: 40px;
+    padding: 0 !important;
+}
+
+.logo{
+    height: 25px;
+    transform: translateY(3px);
+}
+
+.opçoes{
+    display: flex;
+    justify-content: center;
+}
+
+.opçoes h5{
+    padding: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.opçoes h5:hover{
+    background-color: rgba(0, 0, 0, 0.035);
+}
+
+.ativo{
+    border-bottom: 5px solid #1982c4 !important;
+    color: #1982c4;
+}
+
+.ativo:hover{
+    background-color: rgba(25, 129, 194, 0.15) !important;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-spacing: 20px;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: 2fr 3fr 1fr;
+    border-radius: 10px;
+    width: 300px;
+    height: 310px;
+    color: #FFF;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+
+.card-description{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    position: relative;
+    max-width: 300px;
+}
+
+.card-description a, .card-description h5{
+    color: #FFF;
+}
+
+.card-description div{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.titulo-subtitulo{
+    flex-direction: column;
+}
+
+.titulo-subtitulo{
+    white-space: nowrap;
+    max-width: 220px;
+    overflow: hidden;
+}
+
+.card-icons{
+    border-top: gainsboro 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 5px 15px;
+    gap: 10px;
+}
+
+.card-icons ion-icon{
+    color: #000;
+}
+
+.homework p{
+    color: #000;
+    font-size: 13px;
+}
+
+.homework h5{
+    font-weight: 500;
+}
+
+.homework h5:hover{
+    text-decoration: none;
+}
+
+.homework{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.card img{
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    bottom: -35%;
+    right: 5%;
+}
+
+.profiles{
+    font-size: 3rem;
+    justify-self: end;
+    transform: translateY(-52%);
+    border-radius: 50% !important;
+    margin-right: 5%;
+    padding: 4% !important;
+    color: #FFF !important;
+    background-color: #000 !important;
+}
+
+.titulo-subtitulo:hover{
+    text-decoration: underline;
+}
+
+main h2:hover, main h5:hover, main p:hover{
+    text-decoration: underline;
+}
+
+.card ion-icon, .banner ion-icon, header ion-icon{
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.card ion-icon:hover, .banner ion-icon:hover, header ion-icon:hover{
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.main-mural{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 25px;
+}
+
+main section{
+    width: 100%;
+}
+
+.main-mural h5{
+    font-size: 14px;
+}
+
+.vertical-card h5{
+    font-weight: 500;
+    color: #3c4043;
+}
+
+.data{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.data:hover{
+    color: #3c4043 !important;
+}
+
+.vertical-card p{
+    text-decoration: none !important;
+}
+
+.banner{
+    width: 100%;
+    height: 250px;
+    padding: 0 10px 15px 20px;
+    border-radius: 7px;
+    color: #FFF;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.banner ion-icon{
+    --ionicon-stroke-width: 40px;
+}
+
+.titulo-mural{
+    font-size: 1.5rem;
+}
+
+.titulo-mural h1{
+    font-weight: 600;
+}
+
+.titulo-mural h4{
+    font-weight: 400;
+}
+
+.mural{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1.5fr 5fr;
+}
+
+.proximas-atividades{
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+    padding: 15px 8px 8px 15px;
+    
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+}
+
+.proximas-atividades .homework{
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.proximas-atividades .h5{
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.proximas-atividades button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+
+    background-color: rgba(0, 0, 0, 0);
+    color: #1982c4;
+
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    align-self: end;
+}
+
+.proximas-atividades button:hover{
+    background-color: rgba(25, 129, 194, 0.06);
+}
+
+.vertical-card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid gainsboro;
+    padding: 15px 20px;
+    border-radius: 10px;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.vertical-card ion-icon{
+    font-size: 45px;
+}
+
+.vertical-card:hover{
+    background-color: rgba(25, 129, 194, 0.15);
+}
+
+.vertical-card h5:hover{
+    text-decoration: none;
+}
+
+.aviso p{
+    font-size: 13px;
+    color: gray;
+}
+
+.aviso ion-icon{
+    color: #000 !important;
+}
+
+.aviso:hover > p{
+    color: #1982c4;
+}
+
+.materiais{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reader{
+    background-color: #1982c4;
+    color: #FFF;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 22px !important;
+    --ionicon-stroke-width: 45px;
+}
+
+/*Cores*/
+.red{
+    background-color: #ff595e;
+}
+
+.yellow{
+    background-color: #ffca3a;
+}
+.green{
+    background-color: #8ac926;
+}
+.blue{
+    background-color: #1982c4;
+}
+.purple{
+    background-color: #6a4c93;
+}
